@@ -1,160 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<title>Easy Profile Blue - templatemo</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-<!-- 
-Easy Profile Template
-http://www.templatemo.com/tm-467-easy-profile
--->
-	<!-- stylesheet css -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/templatemo-blue.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taris Ahmad J - Full Stack Developer & Product Designer</title>
+
+    <meta name="keywords" content="Taris Ahmad J, Taris">
+    <meta name="description" content="Taris Ahmad J, i am Software Engineer, Coder, Designer, Full Stack Developer.">
+  
+    <!-- Facebook Meta Tags -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Taris Ahmad J - Full Stack Developer & Product Designer">
+    <meta property="og:description" content="Taris Ahmad J, i am Software Engineer, Coder, Designer, Full Stack Developer.">
+    <meta property="profile:first_name" content="Taris">
+    <meta property="profile:last_name" content="AhmadJ">
+    <meta property="profile:username" content="Tarisahmadj">        
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Corporation",
+          "name": "tarisahmadj",
+          "alternateName": "Taris Ahmad J",
+          "sameAs": [
+            "https://instagram.com/tarisahmd",
+            "https://linkedin.com/in/tarisahmadj",
+            "https://github.com/tarisahmadj"
+          ]
+        }
+    </script>
 </head>
-<body data-spy="scroll" data-target=".navbar-collapse">
 
-<!-- preloader section -->
-<div class="preloader">
-	<div class="sk-spinner sk-spinner-wordpress">
-       <span class="sk-inner-circle"></span>
-     </div>
-</div>
+<body>
 
-<!-- header section -->
-<header>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<img src="images/tm-easy-profile.jpg" class="img-responsive img-circle tm-border" alt="templatemo easy profile">
-				<hr>
-				<h1 class="tm-title bold shadow">Hi, I am Julia</h1>
-				<h1 class="white bold shadow">Creative Director</h1>
-			</div>
-		</div>
-	</div>
-</header>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
 
-<!-- about and skills section -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-6 col-sm-12">
-			<div class="about">
-				<h3 class="accent">Easy Profile</h3>
-				<h2>Bootstrap v3.3.5</h2>
-				<p>This easy HTML profile is brought to you by templatemo website. There are 4 color themes, <a href="index-green.html">Green</a>, <a href="index.html">Blue</a>, <a href="index-gray.html">Gray</a>, and <a href="index-orange.html">Orange</a>. Sed vitae dui in neque elementum tempor eu id risus. Phasellus sed facilisis lacus, et venenatis augue.</p>
-			</div>
-		</div>
-		<div class="col-md-6 col-sm-12">
-			<div class="skills">
-				<h2 class="white">Skills</h2>
-				<strong>PHP MySQL</strong>
-				<span class="pull-right">70%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-					</div>
-				<strong>UI/UX Design</strong>
-				<span class="pull-right">85%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-					</div>
-				<strong>Bootstrap</strong>
-				<span class="pull-right">95%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
-					</div>
-			</div>
-		</div>
-	</div>
-</section>
 
-<!-- education and languages -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-8 col-sm-12">
-			<div class="education">
-				<h2 class="white">Education</h2>
-					<div class="education-content">
-						<h4 class="education-title accent">New Web Design</h4>
-							<div class="education-school">
-								<h5>School of Media</h5><span></span>
-								<h5>2030 January - 2034 December</h5>
-							</div>
-						<p class="education-description">In lacinia leo sed quam feugiat, ac efficitur dui tristique. Ut venenatis, odio quis cursus egestas, nulla sem volutpat diam, ac dapibus nisl ipsum ut ipsum. Nunc tincidunt libero non magna placerat elementum.</p>
-					</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-12">
-			<div class="languages">
-				<h2>Languages</h2>
-					<ul>
-						<li>Myanmar / Thai</li>
-						<li>English / Spanish</li>
-						<li>Chinese / Japanese</li>
-						<li>Arabic / Hebrew</li>
-					</ul>
-			</div>
-		</div>
-	</div>
-</section>
+    <div class="nav-full-screen" id="navFullScreen">
+        <a href="#home" onclick="closeFullScreenNav()" class="nav-link">HOME</a>
+        <a href="#portfolio" onclick="closeFullScreenNav()" class="nav-link">WORK</a>
+        <a href="#about" onclick="closeFullScreenNav()" class="nav-link">ABOUT</a>
+        <a href="#contact" onclick="closeFullScreenNav()" class="nav-link">CONTACT</a>
 
-<!-- contact and experience -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-4 col-sm-12">
-			<div class="contact">
-				<h2>Contact</h2>
-					<p><i class="fa fa-map-marker"></i> 123 Rama IX Road, Bangkok</p>
-					<p><i class="fa fa-phone"></i> 010-020-0890</p>
-					<p><i class="fa fa-envelope"></i> easy@company.com</p>
-					<p><i class="fa fa-globe"></i> www.company.com</p>
-			</div>
-		</div>
-		<div class="col-md-8 col-sm-12">
-			<div class="experience">
-				<h2 class="white">Experiences</h2>
-					<div class="experience-content">
-						<h4 class="experience-title accent">Website Development</h4>
-						<h5>New Media Company</h5><span></span>
-						<h5>2035 January - 2036 April</h5>
-						<p class="education-description">Cras porta tincidunt sem, in sollicitudin lorem efficitur ut. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
-					</div>
-			</div>
-		</div>
-	</div>
-</section>
+        <div class="social-links">
+            <a href="https://instagram.com/tarisahmd" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/tarisahmadj/" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" /></svg>
+            </a>
+            <a href="https://www.github.com/tarisahmadj/" class="social-link">
+                <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)"/></svg>
+            </a>
+        </div>
 
-<!-- footer section -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<p>Copyright &copy; 2084 Your Easy Profile</p>
-				<ul class="social-icons">
-					<li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-google-plus"></a></li>
-					<li><a href="#" class="fa fa-twitter"></a></li>
-					<li><a href="#" class="fa fa-dribbble"></a></li>
-					<li><a href="#" class="fa fa-github"></a></li>
-					<li><a href="#" class="fa fa-behance"></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</footer>
+        <button class="close" onclick="closeFullScreenNav()"><img src="./assets/icons/close.svg" alt="close"></button>
+    </div>
 
-<!-- javascript js -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/custom.js"></script>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#home" class="nav-link nav-link-active">HOME</a>
+            <a href="#portfolio" class="nav-link">WORK</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </div>
+        <button class="nav-link-btn" onclick="openFullScreenNav()"><img src="./assets/icons/menu.svg"
+                alt="menu"></button>
+    </nav>
+    <!-- navbar -->
 
+
+    <!-- introduction to skills -->
+    <div class="section-hero" id="home">
+        <h1>Hi 👋🏻 I'm TARIS </h1>
+        <h1>I MAKE</h1>
+
+        <h1 class="hero-skill-heading t-gradient1" data-text="APPS">MOBILE APPS</h1>
+        <h1 class="hero-skill-heading t-gradient2" data-text="WEBSITE">WEBSITE</h1>
+        <h1 class="hero-skill-heading t-gradient3" data-text="UI/UX">UI/UX</h1>
+    </div>
+    <!-- introduction to skills -->
+
+
+    <!-- section: technologies -->
+    <div class="section-technologies" id="tech">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Technologies</h1>
+            <h1>What Iam use</h1>
+        </div>
+
+        <div class="row">
+            <div class="col"><img class="tech-icon-img" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/react.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/vue-js-icon.png" alt="img"></div>
+            <!-- <div class="col"><img class="tech-icon-img" src="./assets/icons/vue.svg" alt="img"></div> -->
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/html.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/css.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/javascript.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/flutter.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="./assets/icons/react_native.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="https://cdn.worldvectorlogo.com/logos/jquery-1.svg" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/codeigniter-icon.png" alt="img"></div>
+            <div class="col"><img class="tech-icon-img" src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg" alt="img"></div>
+            <!-- <div class="col"><img class="tech-icon-img" src="./assets/icons/electron.svg" alt="img"></div> -->
+        </div>
+
+        <div class="row mt-80">
+            <div class="col"><img src="./assets/icons/nextjs.svg" alt="img" class="tech-icon-img"></div>
+            <!-- <div class="col"><img src="./assets/icons/nuxtjs.svg" alt="img" class="tech-icon-img"></div> -->
+            <div class="col"><img src="./assets/icons/nodejs.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/tailwind.svg" alt="img" class="tech-icon-img"></div>
+        </div>
+
+        <div class="row mt-80">
+            <div class="col"><img src="./assets/icons/postgresql.svg" alt="img" class="tech-icon-img"></div>
+            <!-- <div class="col"><img src="./assets/icons/mongodb.svg" alt="img" class="tech-icon-img"></div> -->
+            <div class="col"><img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="img" class="tech-icon-img"></div>
+        </div>
+
+        <!-- <div class="row mt-80">
+            <div class="col"><img src="./assets/icons/aws.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/googlecloud.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/firebase.svg" alt="img" class="tech-icon-img"></div>
+        </div> -->
+
+        <div class="row mt-80">
+            <!-- <div class="col"><img src="./assets/icons/sketch.svg" alt="img" class="tech-icon-img"></div> -->
+            <div class="col"><img src="./assets/icons/figma.svg" alt="img" class="tech-icon-img"></div>
+        </div>
+
+        <div class="row mt-80">
+            <!-- <div class="col"><img src="./assets/icons/xd.svg" alt="img" class="tech-icon-img"></div> -->
+            <div class="col"><img src="./assets/icons/photoshop.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/illustrator.svg" alt="img" class="tech-icon-img"></div>
+            <div class="col"><img src="./assets/icons/premierepro.svg" alt="img" class="tech-icon-img"></div>
+            <!-- <div class="col"><img src="./assets/icons/indesign.svg" alt="img" class="tech-icon-img"></div> -->
+        </div>
+    </div>
+    <!-- section: technologies -->
+
+
+    <!-- section: portfolio -->
+    <div class="section-portfolio" id="portfolio">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Work</h1>
+            <h1>Portfolio</h1>
+        </div>
+
+
+        <div class="section-portfolio-grid">
+            <a class="portfolio-card" href="#home">
+                <img src="assets/projects/tailwind/shopify.png" alt="img">
+                <div class="portfolio-card-details">
+                    <h4>Laravel,React,Go Projects</h4>
+                </div>
+            </a>
+            <!-- <a class="portfolio-card" href="https://github.com/dhruvilxcode/fsjs-js-assignment-2/tree/main/bookmark-app">
+                <img src="assets/projects/bookmark-app/bookmark-app.png" alt="img">
+                <div class="portfolio-card-details">
+                    <h4>Bookmark App + Chrome Extension</h4>
+                </div>
+            </a> -->
+        </div>
+
+        <a href="https://github.com/tarisahmadj" target="_blank" data-text="MORE" class="link-more">MORE</a>
+    </div>
+    <!-- section: portfolio -->
+
+
+
+    <!-- section:about -->
+    <div class="section-about" id="about">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">About</h1>
+            <h1>Me</h1>
+        </div>
+
+        <div class="section-about-details">
+            
+            <div class="section-about-texts">
+                <p>
+                    Hi there 👋🏻, My name is <b>TARIS</b>, I am a Software Engineer. I graduated from the computer science program, majoring in informatics, at Universitas Dian Nuswantoro, Semarang in 2023. With a solid foundation in computer science and informatics, my academic journey has equipped me with a comprehensive understanding of various programming languages, algorithms, and software development methodologies.
+
+                    My passion for technology and innovation extends beyond the academic realm. I have hands-on experience in creating and designing mobile applications, websites, and admin panels. Through various projects during my academic years, I honed my skills in developing robust and user-friendly software solutions. The combination of theoretical knowledge and practical application has prepared me to tackle challenges in the dynamic field of software engineering.
+                    
+                    I am enthusiastic about leveraging my expertise to contribute to cutting-edge projects, bringing creative and efficient solutions to the forefront of technology. My goal is to continue exploring new horizons, staying abreast of emerging technologies, and making a positive impact in the world of software development.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- section:about -->
+
+
+
+
+    <!-- section: contact -->
+    <div class="section-contact" id="contact">
+        <div class="section-headings">
+            <h1 class="heading-stroke-only">Let's</h1>
+            <h1>Build</h1>
+        </div>
+
+        <div class="section-contact-links">
+            <a class="contact-link" href="mailto:tarisahmadjuzaili@gmail.com">
+                <img src="./assets/icons/mail.svg" alt="icon">
+                tarisahmadjuzaili@gmail.com
+            </a>
+            <!-- <a class="contact-link" href="tel:"><img src="./assets/icons/call.svg" alt="icon">+91 12345 67890</a> -->
+            <a class="contact-link" href="http://maps.google.com/"><img src="./assets/icons/location.svg" alt="icon">
+                Semarang, Indonesia.</a>
+        </div>
+    </div>
+    <!-- section: contact -->
+
+
+
+    <!-- section: footer -->
+    <footer class="footer">
+        <p>&copy; Copyright by Taris Ahmad J <span id="currentYear">2023</span></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/tarisahmadj/" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" /></svg>
+            </a>
+            <a href="https://www.github.com/tarisahmadj/" class="social-link">
+                <svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z" transform="scale(64)"/></svg>
+            </a>
+        </div>
+    </footer>
+    <!-- section: footer -->
+
+
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
